@@ -22,7 +22,6 @@ How to set up the data in the repository? Run the main script : `[generate_libr
 
 **Model**
 
-![屏幕截图 2024-04-29 150913.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/10a07dfb-3a27-4693-8e28-bf5e0b5bc70b/99d2852e-d9b4-4e68-8889-a3db23293433/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2024-04-29_150913.png)
 
 - Data Preprocessing: Generating the Libri2mix dataset from the LibriSpeech corpus and the WHAM noise dataset. Augmenting samples by pitch shifting.
 - Model: We plan to make architectural changes to an existing model called [ConvTasNet](https://arxiv.org/pdf/2010.15366v3.pdf).
@@ -67,4 +66,5 @@ You **must** include references to any papers or GitHub repositories which you
 
 If you borrowed code from another GitHub repository, you **must** clearly write in your comments what is outsourced (and from where) and what is your own.
 
-Failure to properly credit external sources constitutes plagarism.
+Huang, S.-F., Chuang, S.-P., Liu, D.-R., Chen, Y.-C., Yang, G.-P., & Lee, H. (2021). Stabilizing label assignment for speech separation by self-supervised pre-training. Interspeech 2021. https://doi.org/10.21437/interspeech.2021-763 
+
